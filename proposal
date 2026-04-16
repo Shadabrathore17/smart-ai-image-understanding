@@ -1,0 +1,64 @@
+# Smart AI Image Understanding System
+
+## 1) Project Proposal
+
+### Title
+
+**Smart AI Image Understanding System using BLIP and Gradio**
+
+### Abstract
+
+This project is an AI-based web application that allows users to upload any image and receive an intelligent natural-language description of the uploaded image. The system uses the **BLIP (Bootstrapping Language Image Pretraining)** model from Salesforce for image captioning and **Gradio** for a modern interactive web UI.
+
+Unlike traditional image classifiers that only predict fixed labels, this system performs **scene understanding** and generates a meaningful sentence-level description. It can identify sports scenes, animals, humans, indoor objects, outdoor environments, and many common visual situations.
+
+### Objective
+
+* To build an AI web app for image understanding
+* To generate accurate image captions from uploaded images
+* To provide a clean UI for real-time image analysis
+* To deploy the system easily on Google Colab
+
+### Technologies Used
+
+* Python
+* Google Colab
+* Transformers
+* PyTorch
+* BLIP Pretrained Model
+* Gradio UI
+* PIL
+
+### Methodology
+
+1. User uploads image through web UI
+2. Image is passed to BLIP processor
+3. Pretrained BLIP model extracts visual features
+4. Language decoder generates image caption
+5. Output is displayed as AI description
+
+### Expected Output
+
+Example:
+
+* Input: Cricket field image
+* Output: *A cricket field with a pitch in the middle*
+
+### Applications
+
+* Smart image search
+* Accessibility tools for visually impaired users
+* E-commerce image description
+* Automated media tagging
+* College AI demonstration project
+
+### Future Scope
+
+* Object detection
+* OCR text extraction
+* Human/animal detection
+* Color analysis
+* PDF report generation
+* Multi-image batch processing
+
+
