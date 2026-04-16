@@ -21,9 +21,10 @@ def analyze(img):
 
 demo = gr.Interface(
     fn=analyze,
-    inputs=gr.Image(type="pil"),
-    outputs="text",
-    title="Smart AI Image Understanding"
+    inputs=gr.Image(type="pil", label="Upload Image"),
+    outputs=gr.Textbox(label="AI Description"),
+    title="Smart AI Image Understanding",
+    description="Upload any image and get AI-generated description instantly.\n\n---\n**Developed by Shadab**"
 )
 
 demo.launch(share=True)
